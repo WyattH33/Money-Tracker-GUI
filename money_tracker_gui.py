@@ -198,4 +198,3 @@ while True:
                 window[f'-COL{3}-'].update(visible=True)
                 layout = 3
                 continue
-# code should be complete?
