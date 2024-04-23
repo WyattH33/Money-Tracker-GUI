@@ -131,7 +131,7 @@ while True:
                       sg.Popup('Invalid Category')
                       continue
                  try:
-                    deposit_amount = int(values['-DEPOSIT_AMOUNT-'])
+                    deposit_amount = float(values['-DEPOSIT_AMOUNT-'])
                  except:
                       sg.Popup('Deposit must be a number')
                       continue
